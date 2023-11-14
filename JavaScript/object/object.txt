@@ -1,0 +1,15 @@
+What Is Objects ??
+    An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method. Objects in JavaScript, just as in many other programming languages, can be compared to objects in real life.
+
+In JavaScript, almost "everything" is an object.
+
+
+    Booleans can be objects (if defined with the new keyword)
+    Numbers can be objects (if defined with the new keyword)
+    Strings can be objects (if defined with the new keyword)
+    Dates are always objects
+    Maths are always objects
+    Regular expressions are always objects
+    Arrays are always objects
+    Functions are always objects
+    Objects are always objects
