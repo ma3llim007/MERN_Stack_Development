@@ -1,0 +1,19 @@
+String Methods Are:- 
+    1.  length  - find the length
+    2.  slice()  - It extracted and display the selected part of the string ex:- slice(0,5).
+    3.  substring()  - It extracted and display the selected part of the string. it same the slice Methods ex:- substring(0,5).
+    4.  substr()  - it extracted and display the String From Starting Point To Number Of String ex:- substr(1,5); first parameter defined the index to start, second parameter defined the length of the string.
+    5.  replace()  - it replace the given value of the string from new string.
+    6.  replaceAll()  - it replace all the value of the string from new string.
+    7.  toUpperCase()  - it convert the String to uppercase string
+    8.  toLowerCase()  - it convert the String to lowercase string
+    9.  concat()  - it join the two string into new one string
+    10. trim() - it removes whitespace from both sides of a string
+    11. trimStart() - it removes whitespace only from the start of a string.
+    12. trimEnd() - it removes whitespace only from the end of a string.
+    13. padStart() - it add the custom number or symbol at starting point of string
+    14. padEnd() - it add the custom number or symbol at end point of string
+    15. charAt() - it returns the character at a specified index (position) in a string
+    17. split() - The split() method splits a string into an array of substrings. The split() method returns the new array. The split() method does not change the original string. If (" ") is used as separator, the string is split between words.
+    16. charCodeAt() - it returns the Unicode of the character at a specified position in a string.
+    16. reverse() - it returns the reverse of the string.
