@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onchange</title>
+</head>
+<body>
+    <h1>Onchange</h1>
+    <label>Select The Name To Alert</label>
+    <select name="select" id="select" onchange="MyFunction()">
+        <option value="Mohd">Mohd</option>
+        <option value="Sameer">Sameer</option>
+    </select>
+    <script>
+        function MyFunction(){
+            const select = document.getElementById("select")
+            alert(select.value);
+        }
+    </script>
+</body>
+</html>

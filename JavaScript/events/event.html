@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <h2>Events</h2>
+    <p>HTML events are "things" that happen to HTML elements. <br> When JavaScript is used in HTML pages, JavaScript can "react" on these events. <br> An HTML event can be something the browser does, or something a user does.</p>
+    <button onclick="Time()">The time is?</button>
+    <h3 id="demo"></h3>
+        
+    <script>
+        function Time(){
+            document.getElementById('demo').innerHTML = Date()
+        }
+    </script>
+</body>
+</html>

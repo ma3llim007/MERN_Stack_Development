@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Mouse Over</title>
+    <style>
+        .img{
+            width: 5%;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>On Mouse Over</h1>
+    <img onmouseover="bigImg(this)"  src="../../img/javascript-programming-language-icon.webp" alt="image" class="img">
+    <script>
+        function bigImg(x){
+            x.style.width = "10%";
+        }
+    </script>
+</body>
+</html>
