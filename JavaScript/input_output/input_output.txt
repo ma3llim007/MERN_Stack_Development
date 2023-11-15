@@ -1,0 +1,8 @@
+What Is Input And Output?
+    The process of communicating with the outside world is known as input/output or I/O.
+
+    Input
+    we use the prompt() function to ask the user for input. As a parameter, we input the text we want to display to the user. Once the user presses “ok,” the input value is returned. We typically store user input in a variable so that we can use the information in our program.
+
+    Output
+    it display the content which passed the developer
