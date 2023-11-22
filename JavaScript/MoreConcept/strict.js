@@ -1,0 +1,1 @@
+"use strict"; // Treal the code as newer javascript
