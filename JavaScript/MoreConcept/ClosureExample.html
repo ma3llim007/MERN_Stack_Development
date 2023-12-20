@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure Example</title>
+</head>
+<body style="background-color: #313131;">
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+    <button id="red">Red</button>
+    <button id="blue">Blue</button>
+    <script>
+        // document.getElementById("orange").onclick = function(){
+        //     document.body.style.backgroundColor = `orange`;
+        // }
+        // document.getElementById("green").onclick = function(){
+        //     document.body.style.backgroundColor = `green`;
+        // }
+        // PROBLEM OCCUR WHEN WE 500  DIFFERCEN COLOR BUTTON
+        function ColorChange(color){
+            return function(){
+                document.body.style.backgroundColor = `${color}`;   
+            }
+        }
+        document.getElementById("orange").onclick = ColorChange('orange')
+        document.getElementById("green").onclick = ColorChange('green')
+        document.getElementById("red").onclick = ColorChange('red')
+        document.getElementById("blue").onclick = ColorChange('blue')
+    </script>
+</body>
+</html>
