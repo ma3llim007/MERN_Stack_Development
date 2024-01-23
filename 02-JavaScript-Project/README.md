@@ -1,2 +1,2 @@
 # JAVASCRIPT PROJECT'S
-## [Random Color Generator](./01-Randor-Color-Generator/index.html)
+##3 [01 Random Color Generator](./01-Randor-Color-Generator/index.html)
