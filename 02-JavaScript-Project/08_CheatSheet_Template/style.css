@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.h1{
+    text-align: center;
+    color: #007BFF;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 12px;
+}
+.h2{
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 15px 0 12px 5px;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1;
+    margin: 20px 0 20px 0;
+}
+.copy-to-clipboard-button > span{
+    color: white;
+    cursor: pointer;
+}
+.copy-to-clipboard-button:hover > span{
+    color: white;
+}
+.heading{
+    color: blueviolet;
+    text-decoration: underline;
+}
