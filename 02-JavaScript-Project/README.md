@@ -7,5 +7,5 @@
 ### [06 Dictionary](./06_Dictionary/)
 ### [07 Form Validation](./07_Form_Validation/)
 ### [08 CheatSheet Template](./08_CheatSheet_Template/)
-### [07 Calculator](./09_Calculator/)
-### [07 News Website](./10_News_website/)
+### [09 Calculator](./09_Calculator/)
+### [10 News Website](./10_News_website/)
