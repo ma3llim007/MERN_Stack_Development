@@ -6,8 +6,6 @@ Array.from(buttons).forEach((button) => {
         InputData = e.originalTarget.value;
         RemoveDel = InputData.replace("Del", "");
         string += RemoveDel;
-        console.log(string);
-        console.log(InputData);
         if (InputData == 'AC') {
             InputFeild.value = '';
             string = '';
