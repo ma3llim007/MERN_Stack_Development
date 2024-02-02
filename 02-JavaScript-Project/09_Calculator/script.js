@@ -19,11 +19,7 @@ Array.from(buttons).forEach((button) => {
         } else if (InputData == '^') {
             string = string.replace("^", "");
             string = Math.pow(string, 2);
-        } else if (InputData == '%') {
-            string = string.replace("%", "");
-            string = Math.mod(string, 2);
         }
-        
         // Show the result and number in input
         InputFeild.value = string;    
     });
