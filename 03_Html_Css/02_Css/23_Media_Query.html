@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .box{
+            background-color: burlywood;
+            width: auto;
+            margin: 3px ;
+            padding: 10px;
+        }
+        @media only screen and (max-width:480px){
+            .container{
+                flex-direction: column;
+            }
+            .box{
+                background-color: red;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit est facilis, nostrum recusandae maiores vero veniam alias, ipsam numquam laudantium quod explicabo. Vel, voluptatem. Ipsam totam sint commodi dolorum beatae?</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti atque aperiam necessitatibus excepturi voluptatem, inventore aspernatur repellendus saepe omnis temporibus mollitia beatae? Ex necessitatibus, vel laborum explicabo quasi facilis. Itaque!</div>
+        <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quas itaque molestiae, accusantium doloremque cupiditate sit cumque, aliquid ipsa nulla ratione, est reiciendis tempora vel iste quod vero nostrum a!</div>
+    </div>
+</body>
+</html>

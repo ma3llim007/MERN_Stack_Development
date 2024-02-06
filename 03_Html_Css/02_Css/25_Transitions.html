@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        .btn{
+            width: 10rem;
+            margin: 5rem;
+            padding: 0.3rem;
+            background-color: #059862;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            /* transition:1.5s;
+            transition-delay: 0.1s;
+            transition-duration:1.6s;
+            transition-property:all;
+            transition-timing-function:ease-in-out; */
+            /* Short Hand of Transition */
+            transition: all 1s ease-in-out 0.1s;
+        }
+        .btn:hover{
+            width: 15rem;
+            padding: 1rem;
+            background-color: aqua;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn">Button</button>
+</body>
+</html>
