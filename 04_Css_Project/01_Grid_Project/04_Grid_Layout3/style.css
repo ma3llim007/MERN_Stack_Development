@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #343A43;
+    cursor: grabbing;
+}
+
+.container{
+    display: grid;
+    gap: 10px;
+    margin: 3rem;
+    grid-template-areas: "header header header header"
+    "sidebar content-1 content-1 content-1"
+    "sidebar content-2 content-2 content-3"
+    "footer footer footer footer";
+}
+.box{
+    border: 5px solid #131519;
+    border-radius: 3px;
+}
+.header{
+    grid-area: header;
+    background-color: #8570E1;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: #3AD4CC;
+    padding: 9rem 0;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.content-1{
+    grid-area: content-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: #348FF1;
+}
+.content-2{
+    grid-area: content-2;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: #289DF6;
+}
+.content-3{
+    grid-area: content-3;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: #417EE9;
+}
+.footer{
+    grid-area: footer;
+    background-color: #8470E0;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
