@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    padding: 20px;
+    background-color: aqua;
+    width: 20rem;
+}
+.second{
+    padding: 20px;
+    background-color: blueviolet;
+}
+.thrid{
+    padding: 20px;
+    background-color: blue;
+}
+.four{
+    padding: 20px;
+    background-color: chartreuse;
+}
+.five{
+    padding: 20px;
+    background-color: brown;
+}
