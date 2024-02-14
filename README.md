@@ -7,3 +7,6 @@
 
 ## [03 Html & Css](03_Html_Css/)
 > Learn Html And Css
+
+## [04 Javascript ES6](04_JavaScript_ES6/)
+> Learn Javascript ES6 Concept
