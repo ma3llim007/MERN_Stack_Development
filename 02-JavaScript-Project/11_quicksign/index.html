@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Sign</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="shortcut icon"  href="assets/images/favicon-16x16.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="section-one">
+            <div class="form-box">
+                <label for="color">Text Color Picker</label>
+                <input type="color" name="color" id="color">
+            </div>
+            <div class="form-box">
+                <label for="background">Background</label>
+                <input type="color" name="background" id="background">
+            </div>
+            <div class="form-box">
+                <label for="fontsize">Font Size</label>
+                <select name="fontsize" id="fontsize">
+                    <option value="1">1px</option>
+                    <option value="2">2px</option>
+                    <option value="3">3px</option>
+                    <option value="4">4px</option>
+                    <option value="5">5px</option>
+                    <option value="6">6px</option>
+                    <option value="7">7px</option>
+                    <option value="8">8px</option>
+                    <option value="9">9px</option>
+                    <option value="10">10px</option>
+                    <option value="11">11px</option>
+                    <option value="12">12px</option>
+                    <option value="13">13px</option>
+                    <option value="14">14px</option>
+                    <option value="15">15px</option>
+                    <option value="16">16px</option>
+                    <option value="17">17px</option>
+                    <option value="18">18px</option>
+                    <option value="19">19px</option>
+                    <option value="20">20px</option>
+                    <option value="21">21px</option>
+                    <option value="22">22px</option>
+                    <option value="23">23px</option>
+                    <option value="24">24px</option>
+                    <option value="25">25px</option>
+                    <option value="26">26px</option>
+                    <option value="27">27px</option>
+                    <option value="28">28px</option>
+                    <option value="29">29px</option>
+                    <option value="30">30px</option>
+                </select>
+            </div>
+        </div>
+        <section class="section">
+            <canvas width="800" height="400" class="canvas" id="canvas"></canvas>
+        </section>
+        <div class="bottom-section">
+            <button name="clear" id="clear" class="btn btn-danger">Clear</button>
+            <button name="save" id="save" class="btn btn-primary">Save & Download</button>
+            <button name="retrieve" id="retrieve" class="btn btn-warning">Retrieve Saved Signature</button>
+        </div>
+    </div>
+
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>
