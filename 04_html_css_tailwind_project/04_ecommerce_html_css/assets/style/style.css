@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    width: 100vw;
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 90px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 15px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.header-logo {
+    flex-basis: 30%;
+}
+
+.header-logo a img {
+    width: 180px;
+}
+
+.header-link {
+    flex-basis: 65%;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.header-link nav ul li {
+    list-style-type: none;
+    padding: 2px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: hover 0.3s ease;
+}
+
+.nav ul li a:hover,
+header-link nav ul li a:active {
+    color: #088178;
+    content: "";
+}
+
+
+.header-icon img {
+    width: 20px;
+}
