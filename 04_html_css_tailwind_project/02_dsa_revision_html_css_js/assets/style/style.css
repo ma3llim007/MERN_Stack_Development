@@ -77,6 +77,7 @@ header {
 .header-logo {
     display: flex;
     justify-content: start;
+    align-items: center;
 }
 
 .header-logo a {
@@ -85,10 +86,8 @@ header {
 
 .header-logo span {
     font-size: 22.5px;
-    line-height: 34px;
     font-weight: bold;
     color: #1c1e2e;
-    padding-top: 3px;
 }
 
 /* Header Section End */
@@ -144,6 +143,7 @@ header {
 
 .hero-image {
     border-radius: 23px;
+    position: relative;
 }
 
 .hero-img {
@@ -232,7 +232,7 @@ blockquote {
 
 .section-image>img {
     max-width: 90%;
-    max-height: 480px;
+    height: 480px;
 }
 
 .section-list {
@@ -345,4 +345,209 @@ footer>p>a {
     color: black;
     cursor: pointer;
 }
+
 /* Footer Section End */
+
+/* For tablets (landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        padding: 0 60px;
+    }
+
+    .badge {
+        left: 269px;
+        top: -540px;
+    }
+}
+
+/* For tablets (portrait) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    header {
+        margin-bottom: 3.5rem;
+    }
+
+    .header-logo span {
+        font-size: 23px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .here-section {
+        flex-direction: column;
+    }
+
+    .col-7 {
+        flex-basis: 90%;
+        max-width: 90%;
+    }
+
+    .content {
+        padding-right: 0;
+    }
+
+    .content .heading-one {
+        font-size: 33px;
+        line-height: 36px;
+    }
+
+    .content>p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .btn-div {
+        margin: 1.5rem 0;
+    }
+
+    .carousel {
+        margin-bottom: 0;
+    }
+
+    .carousel-inner {
+        margin: 1rem 0;
+    }
+
+    .carousel-button {
+        margin-bottom: 2rem;
+    }
+
+    .col-5 {
+        flex-basis: 90%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .badge {
+        left: 411px;
+        top: -730px;
+    }
+
+    .col-6 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .section-image {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .section-image>img {
+        max-width: 90%;
+        height: auto !important;
+    }
+
+    .section-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-button {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+
+    .section-testimonials {
+        margin-top: 40px;
+    }
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    header {
+        margin-bottom: 4rem;
+    }
+
+    .container {
+        padding: 0 10px;
+        max-width: 90%;
+        min-width: 90%;
+        margin: 0 autos;
+    }
+
+    .here-section {
+        flex-direction: column;
+    }
+
+    .content {
+        padding-right: 0;
+    }
+
+    .content .heading-one {
+        font-size: 29px;
+        line-height: 36px;
+    }
+
+    .col-7 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .content>p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .btn-div {
+        margin: 1.5rem 0;
+    }
+
+    .section-image {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .section-image>img {
+        max-width: 90%;
+        height: auto !important;
+    }
+
+    .col-5 {
+        flex-basis: 90%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .badge {
+        width: 100px;
+        height: 100px;
+        left: 241px;
+        top: -477px;
+        font-size: 1rem;
+    }
+
+    .col-6 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .section-image {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .section-image>img {
+        max-width: 90%;
+        height: auto !important;
+    }
+
+    .section-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-button {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+
+    .section-testimonials {
+        margin-top: 40px;
+    }
+}
