@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.Quicksand {
+    font-family: "Quicksand", sans-serif;
+}
+
+.MavenPro {
+    font-family: "Maven Pro", sans-serif;
+}

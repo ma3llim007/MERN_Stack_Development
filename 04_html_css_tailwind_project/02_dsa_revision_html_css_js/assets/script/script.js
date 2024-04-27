@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 // Carousel BlockQuotes Start
 document.addEventListener("DOMContentLoaded", function () {
     const carousel = document.querySelector(".carousel");
