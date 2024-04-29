@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MouseUp MouseDown</title>
+    <style>
+        #Div {
+            width: 400px;
+            height: 400px;
+            background: aquamarine;
+            border: 2px solid black;
+            border-radius: 12px;
+            cursor: grab;
+            margin-bottom: 1rem;
+        }
+
+        button {
+            padding: 5px 10px;
+            background-color: aqua;
+            border: none;
+            font-size: 2rem;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Div"></div>
+
+    <button onmouseup="MouseUp()" onmousedown="MouseDown()" id="button">Click</button>
+
+    <script>
+        function MouseUp(){
+            Div.style.backgroundColor = "red"
+        }
+
+        function MouseDown(){
+            Div.style.backgroundColor = "purple"
+        }
+    </script>
+
+</body>
+
+</html>
