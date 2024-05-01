@@ -9,3 +9,6 @@
 ### [08 CheatSheet Template](./08_CheatSheet_Template/)
 ### [09 Calculator](./09_Calculator/)
 ### [10 News Website](./10_News_website/)
+### [11 QucikSing](./11_quicksign/)
+### [12 Image Resize](./12_image_resize/)
+### [13 Key Logger](./13_key_logger/)

@@ -1,0 +1,17 @@
+﻿# JavaScipt ES6
+
+## [01 Async](./01_Async/)
+## [02 Rest Spread Operator](./02_Rest_Spread_Operator/)
+## [03 Closure](./03_closure/)
+## [04 Call Apply Bind](./04_Call_Apply_Bind/)
+## [05 Array Function](./05_Array_Functions/)
+## [06 ProtoTypes](./06_Prototypes/)
+## [07 Map Set](./07_Map_Set/)
+## [08 Hoisting](./08_hoisting/)
+## [09 EVents](./09_events/)
+## [10 Curring](./10_Currying/)
+## [11 Memoization](./11_Memoization/)
+## [12 Class](./12_Class/)
+## [13 New Math Methods](./13_New_Math_Methods/)
+## [14 Exercise](./14_Exercise/)
+## [15 Flag And Descriptor](./15_flag_and_descriptor/)
