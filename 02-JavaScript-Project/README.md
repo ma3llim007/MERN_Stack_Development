@@ -13,3 +13,5 @@
 ### [12 Image Resize](./12_image_resize/)
 ### [13 Key Logger](./13_key_logger/)
 ### [14 Counter](./14_coutner/)
+### [15 Expense Tracker](./15_expense_tracker/)
+### [16 Guessing Game](./16_guessing_game/)
