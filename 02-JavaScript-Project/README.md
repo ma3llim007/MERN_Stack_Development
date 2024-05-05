@@ -17,3 +17,6 @@
 ### [16 Guessing Game](./16_guessing_game/)
 ### [17 Tic Tac Toe](./17_tic_tac_toe/)
 ### [18 Card Matching](./18_card_matching/)
+### [19 Github Profile Viewer](./19_github_profile_viewer/)
+### [20 Hex Color Picker](./20_hex_color_picker/)
+### [21 Dark Mode And Text Animation](./21_dark_mode_and_text_animation/)
