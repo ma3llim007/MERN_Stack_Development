@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+styleColor {
+    color: #051923;
+    color: #003554;
+    color: #006494;
+    color: #0582ca;
+    color: #00a6fb;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #051923;
+    color: #00a6fb;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 90vh;
+}
+
+.heading{
+    margin: 20px 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.input{
+    padding: 8px;
+    width: 270px;
+    border-radius: 5px;
+}
+
+#GetProfile{
+    padding: 10px;
+    background: #003554;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5ms ease-in-out;
+}
+
+#GetProfile:hover{
+    background: #006494;
+}
+
+.contain{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 2.1rem;
+}
+
+.h3{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.9rem;
+}
+
+img{
+    width: 250px;
+}
+
+.m-2{
+    margin: 10px 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
