@@ -20,3 +20,6 @@
 ### [19 Github Profile Viewer](./19_github_profile_viewer/)
 ### [20 Hex Color Picker](./20_hex_color_picker/)
 ### [21 Dark Mode And Text Animation](./21_dark_mode_and_text_animation/)
+### [22 Form Validation](./22_form_validation/)
+### [23 Jokes Api](./23_jokes_api/)
+### [24 Random Jokes](./24_random_jokes/)
