@@ -23,3 +23,5 @@
 ### [22 Form Validation](./22_form_validation/)
 ### [23 Jokes Api](./23_jokes_api/)
 ### [24 Random Quote](./24_random_quote/)
+### [25 Rocket Moving With Mouse](./25_rocket_moving_with_mouse/)
+### [26 Slider](./26_slider/)
