@@ -22,4 +22,4 @@
 ### [21 Dark Mode And Text Animation](./21_dark_mode_and_text_animation/)
 ### [22 Form Validation](./22_form_validation/)
 ### [23 Jokes Api](./23_jokes_api/)
-### [24 Random Jokes](./24_random_jokes/)
+### [24 Random Quote](./24_random_quote/)
