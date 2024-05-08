@@ -25,3 +25,4 @@
 ### [24 Random Quote](./24_random_quote/)
 ### [25 Rocket Moving With Mouse](./25_rocket_moving_with_mouse/)
 ### [26 Slider](./26_slider/)
+### [27 Typing Game](./27_typing_game/)
