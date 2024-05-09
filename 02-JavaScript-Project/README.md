@@ -26,3 +26,4 @@
 ### [25 Rocket Moving With Mouse](./25_rocket_moving_with_mouse/)
 ### [26 Slider](./26_slider/)
 ### [27 Typing Game](./27_typing_game/)
+### [28 Techcrunch News](./28_techcrunch_news/)
