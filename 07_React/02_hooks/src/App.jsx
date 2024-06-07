@@ -1,10 +1,10 @@
 import "./App.css";
-import { CustomHookComponent } from "./components";
+import { UseState_UseEffect } from "./components";
 function App() {
   console.log("App Pained");
   return (
     <>
-      <CustomHookComponent />
+      <UseState_UseEffect />
     </>
   );
 }
