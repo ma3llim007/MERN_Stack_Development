@@ -1,10 +1,10 @@
 import "./App.css";
-import { UseState_UseEffect } from "./components";
+import { One } from "./components";
 function App() {
   console.log("App Pained");
   return (
     <>
-      <UseState_UseEffect />
+      <One />
     </>
   );
 }
