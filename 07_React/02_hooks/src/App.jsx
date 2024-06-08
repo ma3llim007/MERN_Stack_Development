@@ -1,10 +1,10 @@
 import "./App.css";
-import { One } from "./components";
+import { UserReducer } from "./components";
 function App() {
   console.log("App Pained");
   return (
     <>
-      <One />
+      <UserReducer />
     </>
   );
 }
