@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-grey {
+  background-color: grey;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+
+  margin: 2rem 0;
+}
+
+.calculator {
+  /* background-color: red; */
+  background: black;
+  width: 25rem;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 5px 5px;
+}
+
+.h1 {
+  color: #320083;
+  text-decoration: underline;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.InputDiv>.InputFeild {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  color: black;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.buttonrow {
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  width: 5rem;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #E9967A;
+  color: black;
+  transition: 0.2s;
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+.buttons:hover {
+  color: #E9967A;
+  background-color: white;
+  box-shadow: 7px 7px #D2691E inset;
+}
+
+#AC {
+  width: 11rem;
+}
+
+#Del {
+  width: 11rem;
+}
+
+.maring-top{
+  margin-top: 10rem;
+}
