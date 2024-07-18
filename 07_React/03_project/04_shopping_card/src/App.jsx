@@ -46,11 +46,37 @@ function App() {
     setShow(!show);
   }
 
+  const increamentQty = (id) => {
+    let updateCart = cart.map((item) => {
+      if (item.id === id) {
+        return { ...item, amount: item.amount + 1 };
+      } else {
+        return item
+      }
+    });
+    setCart(updateCart);
+  }
+  const decreamentQty = (id) => {
+    let updateCart = cart.map((item) => {
+      if (item.id === id) {
+        if (item.amount > 1) {
+          return { ...item, amount: item.amount - 1 }  
+        } else {
+          return item;
+        }
+      } else {
+        return item;
+      }
+    });
+    setCart(updateCart)
+  }
+
+
   return (
     <>
       <Header cartSize={cart.length} handleShow={handleShow} />
       {
-        show ? <Shop handleAddToCart={handleAddToCart} /> : <CardList cart={cart} setCart={setCart} />
+        show ? <Shop handleAddToCart={handleAddToCart} /> : <CardList cart={cart} increamentQty={increamentQty} decreamentQty={decreamentQty} />
       }
       <ToastContainer limit={3} />
     </>

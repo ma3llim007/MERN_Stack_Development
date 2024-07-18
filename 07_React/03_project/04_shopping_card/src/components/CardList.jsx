@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const CardList = ({ cart, setCart }) => {
+const CardList = ({ cart, setCart,increamentQty,decreamentQty }) => {
     const [price, setPrice] = useState(0);
     const handleDelete = (id) => {
         let data = [];
@@ -64,6 +64,8 @@ const CardList = ({ cart, setCart }) => {
                                         </td>
                                         <td className="py-3 px-6 text-center">
                                             <div className="flex item-center justify-center">
+                                                <button className="flex mx-auto text-white bg-purple-500 border-0 py-2 px-4 focus:outline-none hover:bg-purple-600 rounded text-sm" onClick={() => increamentQty(item.id)}>+</button>
+                                                <button className="flex mx-auto text-white bg-purple-500 border-0 py-2 px-4 focus:outline-none hover:bg-purple-600 rounded text-sm" onClick={() => decreamentQty(item.id)}>-</button>
                                                 <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded text-sm" onClick={() => handleDelete(item.id)}>Delete</button>
                                             </div>
                                         </td>
@@ -73,7 +75,7 @@ const CardList = ({ cart, setCart }) => {
                             <tr>
                                 <td colSpan={5} className="py-3 px-6 text-center">
                                     <div className="flex items-center">
-                                        <span className="text-center text-lg font-bold">Total Amount:- {price}</span>
+                                        <span className="text-center text-lg font-bold">Total Amount:- {price.toFixed(2)}</span>
                                     </div>
                                 </td>
                             </tr>
