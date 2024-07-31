@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="main w-full min-h-screen bg-zinc-900">
+        <div class="tasks w-[1000px] mx-auto flex justify-center flex-wrap gap-4">
+            <div class="mt-10 task min-w-72 px-3 py-4 rounded-md bg-zinc-800">
+                <a href="/" class="text-blue-500 inline-block font-bold mt-1">Go Back To Home</a>
+                <h1 class="text-white text-4xl tracking-tighter mt-2 font-bold"> <%=filename.replace('.txt','')  %> </h1>
+                <p class="text-xl mt-2 text-white font-light"><%=filedata  %></p>
+            </div>    
+        </div>
+    </div>
+</body>
+
+</html>
