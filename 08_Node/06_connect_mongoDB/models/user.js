@@ -1,0 +1,15 @@
+const mongoose = require("mongoose");
+
+mongoose.connect('mongodb://127.0.0.1:27017/test');
+
+
+const userSchema = mongoose.Schema({
+    name: String,
+    username: String,
+    email: String,
+    number: Number,
+    subject: String,
+    message: String,
+});
+
+module.exports = mongoose.model("user", userSchema);
