@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Ram",
+        "age":10
+    },
+    {
+        "name":"Shyam",
+        "age":11
+    },
+    {
+        "name":"Ghanshayam",
+        "age":11
+    },
+    {
+        "name":"Sita",
+        "age":10
+    },
+    {
+        "name":"Geeta",
+        "age":12
+    },
+    {
+        "name":"Rita",
+        "age":15
+    }
+]
