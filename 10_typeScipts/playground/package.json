@@ -1,12 +1,9 @@
 {
-  "name": "typescipts",
+  "name": "playground",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "jsonwebtoken": "^9.0.2"
   }
 }

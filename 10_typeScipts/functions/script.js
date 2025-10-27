@@ -1,8 +1,11 @@
-var checkPalindrome = function (name) {
-    var clearnName = name.split("").reverse().join("");
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const checkPalindrome = (name) => {
+    const clearnName = name.split("").reverse().join("");
     if (name !== clearnName) {
-        console.log("".concat(name, " Is Not A Palindrome"));
+        console.log(`${name} Is Not A Palindrome`);
     }
-    console.log("".concat(name.toUpperCase(), " Is A Palindrome"));
+    console.log(`${name.toUpperCase()} Is A Palindrome`);
 };
 checkPalindrome("madam");
+//# sourceMappingURL=script.js.map
