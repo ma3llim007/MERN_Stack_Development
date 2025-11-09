@@ -1,5 +1,0 @@
-{
-    "title": "Recipe Notes",
-    "description": "Try making homemade ramen with miso broth.",
-    "tags": ["cooking", "recipes", "food"]
-  }

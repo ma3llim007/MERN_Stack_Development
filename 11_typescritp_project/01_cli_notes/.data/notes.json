@@ -61,5 +61,12 @@
     "description": "Japan, Iceland, New Zealand, and Canada.",
     "tags": "travel, bucketlist",
     "createdAt": "4/11/2025, 10:24:00 pm"
+  },
+  {
+    "id": "yu8aqbas",
+    "title": "Recipe Notes",
+    "description": "Try making homemade ramen with miso broth.",
+    "tags": "cooking, food",
+    "createdAt": "7/11/2025, 8:46:25 pm"
   }
 ]
